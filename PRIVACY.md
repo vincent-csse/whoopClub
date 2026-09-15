@@ -2,9 +2,8 @@
 
 **Last updated:** 15 September 2026
 
-> **TODO before linking this in the WHOOP OAuth flow:** replace
-> `CONTACT_EMAIL_PLACEHOLDER` at the bottom with a real contact address, and make this
-> repository public so the link resolves for people outside the repo.
+> **TODO before linking this in the WHOOP OAuth flow:** make this repository public, so
+> that the link resolves for people outside the repo.
 
 ## What this is
 
@@ -84,4 +83,4 @@ This policy may change if the app changes. The date at the top reflects the curr
 
 ## Contact
 
-CONTACT_EMAIL_PLACEHOLDER
+mostert.vincent12@gmail.com
