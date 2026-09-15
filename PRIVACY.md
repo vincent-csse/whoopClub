@@ -2,9 +2,6 @@
 
 **Last updated:** 15 September 2026
 
-> **TODO before linking this in the WHOOP OAuth flow:** make this repository public, so
-> that the link resolves for people outside the repo.
-
 ## What this is
 
 Whoop Club is a personal, non-commercial tool. It connects your WHOOP account to an
@@ -83,4 +80,4 @@ This policy may change if the app changes. The date at the top reflects the curr
 
 ## Contact
 
-mostert.vincent12@gmail.com
+mostert.vincent12+whoopclub@gmail.com
