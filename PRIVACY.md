@@ -20,6 +20,10 @@ If you grant access, the app can read the following from your WHOOP account:
 - Sleep
 - Recovery
 - Basic profile (name, email as held by WHOOP)
+- Body measurements (height, weight, maximum heart rate)
+
+These six are requested as a single fixed set, not individually. The underlying software
+asks for all of them on every authorisation, so you cannot grant a subset.
 
 It requests **read-only** access. It cannot modify or delete anything in your WHOOP account.
 
@@ -54,6 +58,15 @@ Everything is stored locally on your own computer:
 
 No database, server, or backup is operated by the app owner. There is nothing centrally
 held to breach, and equally nothing centrally held to delete on request.
+
+## How long access lasts
+
+The app requests the `offline` scope. WHOOP therefore issues a refresh token alongside the
+short-lived access token, and the software renews its own access without prompting you
+again. Your authorisation does not lapse at the end of a session, and it does not expire
+after an hour.
+
+In practice, access persists until you explicitly revoke it. See below.
 
 ## What the app owner can and cannot see
 
